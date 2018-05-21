@@ -4,7 +4,7 @@ namespace Modularity\Module\Linkgroup;
 
 class Linkgroup extends \Modularity\Module
 {
-    public $slug = 'mod-Linkgroup';
+    public $slug = 'mod-linkgroup';
     public $nameSingular = 'Linkgroup';
     public $namePlural = 'Linkgroups';
     public $description = 'Linkgroup module for Modularity';
