@@ -4,7 +4,7 @@ if (function_exists('register_field_group')) {
 
 	register_field_group(array (
 		'key' => 'group_5a9552db5e48d',
-		'title' => 'Accordion',
+		'title' => 'Linkgroup',
 		'fields' => array (
 			array (
 				'key' => 'field_5a95531d67ea5',
@@ -71,7 +71,7 @@ if (function_exists('register_field_group')) {
 				array (
 					'param' => 'post_type',
 					'operator' => '==',
-					'value' => 'mod-accordion',
+					'value' => 'mod-linkgroup',
 				),
 			),
 		),

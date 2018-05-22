@@ -1,25 +1,25 @@
 <?php
 /*
- * Plugin Name: Mod-Accordion
+ * Plugin Name: Mod-Linkgroup
  * Plugin URI: -
- * Description: Accordion module for Modularity
+ * Description: Linkgroup module for Modularity
  * Version: 1.0.0
  * Author: David Öhlin
  */
 
-define('ACCORDION_MODULE_PATH', plugin_dir_path(__FILE__));
+define('LINKGROUP_MODULE_PATH', plugin_dir_path(__FILE__));
 
 /**
  * Registers the module
  */
 add_action('Modularity', function() {
 	modularity_register_module(
-		ACCORDION_MODULE_PATH,
-		'Accordion'
+		LINKGROUP_MODULE_PATH,
+		'Linkgroup'
 	);
 
 	// Export and import ACF Fields
 	$acfExportManager = new \AcfExportManager\AcfExportManager();
-	$acfExportManager->setExportFolder(ACCORDION_MODULE_PATH . 'acf/');
+	$acfExportManager->setExportFolder(LINKGROUP_MODULE_PATH . 'acf/');
     $acfExportManager->import();
 });
