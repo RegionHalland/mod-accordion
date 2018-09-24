@@ -2,7 +2,7 @@
 	<h2 id={!! sanitize_title($post_title) !!}>{!! apply_filters('the_title', $post_title) !!}</h2>
 	<ul class="mb3">
 		@foreach ($items as $item)
-			<li><a href="{{ $item['url'] }}">{{ $item['title'] }}</a></li>
+			<li><a class="underline" href="{{ $item['url'] }}">{{ $item['title'] }}</a></li>
 		@endforeach
 	</ul>
 @endif
