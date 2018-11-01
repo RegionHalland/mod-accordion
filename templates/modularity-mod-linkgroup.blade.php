@@ -4,7 +4,7 @@
 	</header>
 	<ul class="list-reset mb-8">
 		@foreach ($items as $item)
-			<li class="inline-flex mb-4">
+			<li class="w-full inline-flex mb-4">
 				<svg class="h-4 w-4 align-bottom mr-2">
 					<use xlink:href="#link-2"/>
 				</svg>
