@@ -1,6 +1,6 @@
 @if(isset($items) && !empty($items))
 	<header id={!! sanitize_title($post_title) !!} class="relative pb-2 block mb-2">
-		<span class="border-b border-grey-light block text-xl font-bold text-black pb-2 z-20 relative">{!! apply_filters('the_title', $post_title) !!} aksodaksod</span>
+		<span class="border-b border-grey-light block text-xl font-bold text-black pb-2 z-20 relative">{!! apply_filters('the_title', $post_title) !!}</span>
 	</header>
 	<ul class="list-reset mb-8">
 		@foreach ($items as $item)
